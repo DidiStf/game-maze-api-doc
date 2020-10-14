@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Backend for the Game Maze project",
   "title": "Game Maze API",
-  "url": "",
+  "url": "https://game-maze.herokuapp.com",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",
