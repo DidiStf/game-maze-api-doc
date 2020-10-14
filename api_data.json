@@ -391,7 +391,7 @@
     "examples": [
       {
         "title": "Example usage:",
-        "content": "http://localhost/api/comments/5f8305ee5d7dce5a88142c43",
+        "content": "https://game-maze.herokuapp.com/api/comments/5f8305ee5d7dce5a88142c43",
         "type": "curl"
       }
     ],
@@ -1151,7 +1151,7 @@
     "examples": [
       {
         "title": "Example usage:",
-        "content": "http://localhost/api/games/5f8305ee5d7dce5a88142c43",
+        "content": "https://game-maze.herokuapp.com/api/games/5f8305ee5d7dce5a88142c43",
         "type": "curl"
       }
     ],
@@ -2480,7 +2480,7 @@
     "examples": [
       {
         "title": "Example usage:",
-        "content": "http://localhost/api/ratings/5f8305ee5d7dce5a88142c43",
+        "content": "https://game-maze.herokuapp.com/api/ratings/5f8305ee5d7dce5a88142c43",
         "type": "curl"
       }
     ],
