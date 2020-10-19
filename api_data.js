@@ -184,7 +184,7 @@ define({ "api": [
     "group": "Comments",
     "permission": [
       {
-        "name": "private"
+        "name": "private, admin"
       }
     ],
     "success": {
@@ -236,7 +236,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Comment's ID</p>"
           },
           {
@@ -307,7 +307,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n \"_id\": \"5f8475e197f7c853443fc989\",\n \"author\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n  },\n \"content\": \"Really love this game.\",\n \"game\": \"5f8305ee5d7dce5a88142c43\",\n \"title\": \"Awesome Game\",\n \"createdAt\": \"2020-10-12T15:27:29.056Z\",\n \"updatedAt\": \"2020-10-12T15:27:29.056Z\",\n \"__v\": 0\n}",
+          "content": "{\n \"id\": \"5f8475e197f7c853443fc989\",\n \"author\": {\n      \"id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n  },\n \"content\": \"Really love this game.\",\n \"game\": \"5f8305ee5d7dce5a88142c43\",\n \"title\": \"Awesome Game\",\n \"createdAt\": \"2020-10-12T15:27:29.056Z\",\n \"updatedAt\": \"2020-10-12T15:27:29.056Z\",\n \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -478,7 +478,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Comment's ID</p>"
           },
           {
@@ -549,7 +549,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n \"_id\": \"5f8475e197f7c853443fc989\",\n \"author\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n  },\n \"content\": \"Really love this game.\",\n \"game\": \"5f8305ee5d7dce5a88142c43\",\n \"title\": \"Awesome Game\",\n \"createdAt\": \"2020-10-12T15:27:29.056Z\",\n \"updatedAt\": \"2020-10-12T15:27:29.056Z\",\n \"__v\": 0\n}",
+          "content": "{\n \"id\": \"5f8475e197f7c853443fc989\",\n \"author\": {\n      \"id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n  },\n \"content\": \"Really love this game.\",\n \"game\": \"5f8305ee5d7dce5a88142c43\",\n \"title\": \"Awesome Game\",\n \"createdAt\": \"2020-10-12T15:27:29.056Z\",\n \"updatedAt\": \"2020-10-12T15:27:29.056Z\",\n \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -1001,7 +1001,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Game's ID</p>"
           },
           {
@@ -1072,7 +1072,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n   \"_id\": \"5f8305ee5d7dce5a88142c43\",\n   \"title\": \"Ori And The Blind Forest\",\n   \"description\": \"Ori and the Blind Forest is a 2D platform game...\",\n   \"genres\": [\n      \"platformer\",\n      \"adventure\"\n     ],\n   \"platforms\": [\n      \"PC\",\n      \"Xbox\",\n      \"Switch\"\n    ],\n   \"developer\": \"Moon Studios\",\n   \"publisher\": \"Microsoft Studios\",\n   \"releaseDate\": \"2015-03-11T00:00:00.283Z\",\n   \"imageUrl\": \"https://upload.wikimedia.org/wikipedia/en/b/b2/Ori_and_the_Blind_Forest_Logo.jpg\",\n   \"trailerUrl\": \"https://www.youtube.com/watch?v=cklw-Yu3moE\"\n}",
+          "content": "{\n   \"id\": \"5f8305ee5d7dce5a88142c43\",\n   \"title\": \"Ori And The Blind Forest\",\n   \"description\": \"Ori and the Blind Forest is a 2D platform game...\",\n   \"genres\": [\n      \"platformer\",\n      \"adventure\"\n     ],\n   \"platforms\": [\n      \"PC\",\n      \"Xbox\",\n      \"Switch\"\n    ],\n   \"developer\": \"Moon Studios\",\n   \"publisher\": \"Microsoft Studios\",\n   \"releaseDate\": \"2015-03-11T00:00:00.283Z\",\n   \"imageUrl\": \"https://upload.wikimedia.org/wikipedia/en/b/b2/Ori_and_the_Blind_Forest_Logo.jpg\",\n   \"trailerUrl\": \"https://www.youtube.com/watch?v=cklw-Yu3moE\"\n}",
           "type": "json"
         }
       ]
@@ -1389,7 +1389,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Game's ID</p>"
           },
           {
@@ -1460,7 +1460,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n   \"_id\": \"5f8305ee5d7dce5a88142c43\",\n   \"title\": \"Ori And The Blind Forest\",\n   \"description\": \"Ori and the Blind Forest is a 2D platform game...\",\n   \"genres\": [\n      \"platformer\",\n      \"adventure\"\n     ],\n   \"platforms\": [\n      \"PC\",\n      \"Xbox\",\n      \"Switch\"\n    ],\n   \"developer\": \"Moon Studios\",\n   \"publisher\": \"Microsoft Studios\",\n   \"releaseDate\": \"2015-03-11T00:00:00.283Z\",\n   \"imageUrl\": \"https://upload.wikimedia.org/wikipedia/en/b/b2/Ori_and_the_Blind_Forest_Logo.jpg\",\n   \"trailerUrl\": \"https://www.youtube.com/watch?v=cklw-Yu3moE\"\n}",
+          "content": "{\n   \"id\": \"5f8305ee5d7dce5a88142c43\",\n   \"title\": \"Ori And The Blind Forest\",\n   \"description\": \"Ori and the Blind Forest is a 2D platform game...\",\n   \"genres\": [\n      \"platformer\",\n      \"adventure\"\n     ],\n   \"platforms\": [\n      \"PC\",\n      \"Xbox\",\n      \"Switch\"\n    ],\n   \"developer\": \"Moon Studios\",\n   \"publisher\": \"Microsoft Studios\",\n   \"releaseDate\": \"2015-03-11T00:00:00.283Z\",\n   \"imageUrl\": \"https://upload.wikimedia.org/wikipedia/en/b/b2/Ori_and_the_Blind_Forest_Logo.jpg\",\n   \"trailerUrl\": \"https://www.youtube.com/watch?v=cklw-Yu3moE\"\n}",
           "type": "json"
         }
       ]
@@ -1872,7 +1872,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Message's ID</p>"
           },
           {
@@ -1971,7 +1971,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n \"_id\": \"5f84b38866fccf5314dbbfd8\",\n \"content\": \"Hello, nice to hear from you!\",\n \"owner\": \"5f8474c497f7c853443fc988\",\n \"recipient\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n  },\n  \"sender\": {\n      \"_id\": \"5f8474c497f7c853443fc988\",\n      \"avatar\": \"2\",\n      \"username\": \"user2\"\n  },\n \"subject\": \"Hi there\",\n \"createdAt\": \"2020-10-12T19:50:32.810Z\",\n \"updatedAt\": \"2020-10-12T19:50:32.810Z\",\n \"__v\": 0\n}",
+          "content": "{\n \"id\": \"5f84b38866fccf5314dbbfd8\",\n \"content\": \"Hello, nice to hear from you!\",\n \"owner\": \"5f8474c497f7c853443fc988\",\n \"recipient\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n  },\n  \"sender\": {\n      \"_id\": \"5f8474c497f7c853443fc988\",\n      \"avatar\": \"2\",\n      \"username\": \"user2\"\n  },\n \"subject\": \"Hi there\",\n \"createdAt\": \"2020-10-12T19:50:32.810Z\",\n \"updatedAt\": \"2020-10-12T19:50:32.810Z\",\n \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -2332,7 +2332,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Rating's ID</p>"
           },
           {
@@ -2396,7 +2396,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n  \"_id\": \"5f8572d308a0ec6ab8728f8a\",\n  \"author\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n    },\n  \"game\": \"5f8305ee5d7dce5a88142c43\",\n  \"value\": 3,\n  \"createdAt\": \"2020-10-13T09:26:43.957Z\",\n  \"updatedAt\": \"2020-10-13T09:26:43.957Z\",\n  \"__v\": 0\n}",
+          "content": "{\n  \"id\": \"5f8572d308a0ec6ab8728f8a\",\n  \"author\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n    },\n  \"game\": \"5f8305ee5d7dce5a88142c43\",\n  \"value\": 3,\n  \"createdAt\": \"2020-10-13T09:26:43.957Z\",\n  \"updatedAt\": \"2020-10-13T09:26:43.957Z\",\n  \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -2567,7 +2567,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The Rating's ID</p>"
           },
           {
@@ -2631,7 +2631,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n  \"_id\": \"5f8572d308a0ec6ab8728f8a\",\n  \"author\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n    },\n  \"game\": \"5f8305ee5d7dce5a88142c43\",\n  \"value\": 3,\n  \"createdAt\": \"2020-10-13T09:26:43.957Z\",\n  \"updatedAt\": \"2020-10-13T09:26:43.957Z\",\n  \"__v\": 0\n}",
+          "content": "{\n  \"id\": \"5f8572d308a0ec6ab8728f8a\",\n  \"author\": {\n      \"_id\": \"5f7a43c38506ae29609f1dba\",\n      \"avatar\": \"1\",\n      \"username\": \"user1\"\n    },\n  \"game\": \"5f8305ee5d7dce5a88142c43\",\n  \"value\": 3,\n  \"createdAt\": \"2020-10-13T09:26:43.957Z\",\n  \"updatedAt\": \"2020-10-13T09:26:43.957Z\",\n  \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -2935,7 +2935,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The User's ID</p>"
           },
           {
@@ -2978,7 +2978,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n  \"role\": \"super-admin\",\n  \"_id\": \"5f7a43c38506ae29609f1dba\",\n  \"username\": \"user1\",\n  \"email\": \"user1@mail.com\",\n  \"createdAt\": \"2020-10-04T21:50:59.251Z\",\n  \"updatedAt\": \"2020-10-04T21:50:59.251Z\",\n  \"__v\": 0\n}",
+          "content": "{\n  \"role\": \"super-admin\",\n  \"id\": \"5f7a43c38506ae29609f1dba\",\n  \"username\": \"user1\",\n  \"email\": \"user1@mail.com\",\n  \"createdAt\": \"2020-10-04T21:50:59.251Z\",\n  \"updatedAt\": \"2020-10-04T21:50:59.251Z\",\n  \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -3340,7 +3340,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The User's ID</p>"
           },
           {
@@ -3383,7 +3383,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n  \"role\": \"super-admin\",\n  \"_id\": \"5f7a43c38506ae29609f1dba\",\n  \"username\": \"user1\",\n  \"email\": \"user1@mail.com\",\n  \"createdAt\": \"2020-10-04T21:50:59.251Z\",\n  \"updatedAt\": \"2020-10-04T21:50:59.251Z\",\n  \"__v\": 0\n}",
+          "content": "{\n  \"role\": \"super-admin\",\n  \"id\": \"5f7a43c38506ae29609f1dba\",\n  \"username\": \"user1\",\n  \"email\": \"user1@mail.com\",\n  \"createdAt\": \"2020-10-04T21:50:59.251Z\",\n  \"updatedAt\": \"2020-10-04T21:50:59.251Z\",\n  \"__v\": 0\n}",
           "type": "json"
         }
       ]
@@ -3543,7 +3543,7 @@ define({ "api": [
             "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "_id",
+            "field": "id",
             "description": "<p>The User's ID</p>"
           },
           {
@@ -3586,7 +3586,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Example Body:",
-          "content": "{\n  \"role\": \"super-admin\",\n  \"_id\": \"5f7a43c38506ae29609f1dba\",\n  \"username\": \"user1\",\n  \"email\": \"user1@mail.com\",\n  \"createdAt\": \"2020-10-04T21:50:59.251Z\",\n  \"updatedAt\": \"2020-10-04T21:50:59.251Z\",\n  \"__v\": 0\n}",
+          "content": "{\n  \"role\": \"super-admin\",\n  \"id\": \"5f7a43c38506ae29609f1dba\",\n  \"username\": \"user1\",\n  \"email\": \"user1@mail.com\",\n  \"createdAt\": \"2020-10-04T21:50:59.251Z\",\n  \"updatedAt\": \"2020-10-04T21:50:59.251Z\",\n  \"__v\": 0\n}",
           "type": "json"
         }
       ]
